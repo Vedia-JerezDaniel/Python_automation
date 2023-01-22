@@ -7,6 +7,8 @@ import sys
 
 # Preparing script before we convert it to executable
 application_path = os.path.dirname(sys.executable)
+# application_path = os.getcwd()
+# application_path = os.path.join(application_path, '3.Excel Report')
 
 # Putting together #2, #3, and #4 (input: pivot_table.xlsx + month , output: Report with barchart, formulas and format)
 month = input('Introduce month: ')
